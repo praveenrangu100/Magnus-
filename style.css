@@ -1,0 +1,93 @@
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgb(189, 201, 201);
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    vertical-align: top;
+    border: 1px solid rgb(85, 85, 85);
+    text-align: left;
+    padding: 8px 15px;
+}
+td.td{
+    margin-top: 20;
+}
+
+tr:nth-child, table.list thread> tr{
+    background-color: rgb(229, 225, 225);
+}
+
+input[type="text"],input[type="number"],input[type="email"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 25px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+#Address{
+    border-radius: 4px;
+}
+#CountryId{
+    height: 30px;
+    width: 150px;
+    margin-left: 10%;
+    border-radius: 6px;
+}
+#CityId{
+    height: 15px;
+    width: max-content;
+    border-radius: 5px;
+    margin-left: 16%;
+}
+td.lt{
+    background-color: #e5e5e5;
+}
